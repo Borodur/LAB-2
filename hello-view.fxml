@@ -5,9 +5,9 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2.HelloController">
    <children>
-      <Button layoutX="247.0" layoutY="182.0" mnemonicParsing="false" style="-fx-background-color: F033FF; -fx-border-color: 000000; -fx-border-style: dotted;" text="Kliknij mnie" textAlignment="CENTER">
+      <Button fx:id="btnMain" layoutX="247.0" layoutY="182.0" mnemonicParsing="false" onAction="#onBtnAction" style="-fx-background-color: F033FF; -fx-border-color: 000000; -fx-border-style: dotted;" text="Kliknij mnie" textAlignment="CENTER">
          <font>
             <Font name="Leelawadee Bold" size="16.0" />
          </font>
